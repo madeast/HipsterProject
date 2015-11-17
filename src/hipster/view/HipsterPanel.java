@@ -16,7 +16,7 @@ public class HipsterPanel extends JPanel
 	public HipsterPanel(HipsterController baseController)
 	{
 		this.baseController = baseController;
-		
+		phraseComboBox = new JComboBox<String>();
 		baseLayout = new SpringLayout();
 		
 		setupComboBox();
