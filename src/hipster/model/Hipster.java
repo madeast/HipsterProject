@@ -8,6 +8,7 @@ public class Hipster
 	private String[] hipsterPhrases;
 	private Book [] hipsterBooks;
 
+
 	public Hipster()
 	{
 		this.name = "";
@@ -73,4 +74,15 @@ public class Hipster
 	{
 		this.hipsterPhrases = hipsterPhrases;
 	}
+	
+	public Book[] getHipsterBooks()
+	{
+		return hipsterBooks;
+	}
+
+	public void setHipsterBooks(Book[] hipsterBooks)
+	{
+		this.hipsterBooks = hipsterBooks;
+	}
+
 }

@@ -1,4 +1,4 @@
-package hipster.controller;
+ package hipster.controller;
 
 import hipster.view.HipsterFrame;
 import hipster.model.Hipster;
